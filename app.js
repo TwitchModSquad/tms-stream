@@ -16,6 +16,9 @@ async function test() {
 			width: 1920,
 			height: 1080,
 		},
+		env: {
+			DISPLAY: ":10.0",
+		}
 	});
 
 	const page = await browser.newPage();
