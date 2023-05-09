@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Do not include ffmpeg.exe
+ffmpeg.exe
+
+# Do not include sensitive config file
+config.json

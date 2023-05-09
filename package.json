@@ -1,0 +1,24 @@
+{
+  "name": "tms-stream",
+  "version": "1.0.0",
+  "description": "Streams TMS overview page to Twitch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwitchModSquad/tms-stream.git"
+  },
+  "author": "Twijn",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/TwitchModSquad/tms-stream/issues"
+  },
+  "homepage": "https://github.com/TwitchModSquad/tms-stream#readme",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "puppeteer": "^20.1.2",
+    "puppeteer-stream": "^3.0.3"
+  }
+}
