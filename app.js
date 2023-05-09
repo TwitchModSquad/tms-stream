@@ -9,6 +9,9 @@ async function test() {
 	const browser = await launch({
 		executablePath: executablePath(),
         headless: "new",
+		ignoreDefaultArgs: [
+			'--disable-extensions'
+		],
 		defaultViewport: {
 			width: 1920,
 			height: 1080,
